@@ -1,0 +1,6 @@
+-i https://pypi.org/simple
+gunicorn==20.0.4
+fastapi[all]
+pyomo==6.7.0
+openpyxl==3.1.2
+pandas
