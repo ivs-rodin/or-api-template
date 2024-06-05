@@ -7,7 +7,7 @@ build:
 run:
 	echo Run bash $(CONTAINER):$(PUSH_TAG)
 	docker run --rm -ti \
-		-p 81:81 \
+		-p 80:80 \
 		-v ${PWD}:/app $(CONTAINER):$(PUSH_TAG)
 run-bash:
 	echo Run bash $(CONTAINER):$(PUSH_TAG)
