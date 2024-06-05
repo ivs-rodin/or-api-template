@@ -4,3 +4,4 @@ fastapi[all]
 pyomo==6.7.0
 openpyxl==3.1.2
 pandas
+highspy==1.7.1.dev1
